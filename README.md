@@ -97,16 +97,38 @@ The models were compared based on their performance on the test dataset.
 
 ## 📈 Model Evaluation
 
-The models were evaluated using:
+Four classification algorithms were evaluated to predict whether an e-commerce order would reach the customer on time:
 
-* Accuracy
-* Precision
-* Recall
-* F1-score
-* Confusion Matrix
-* Classification Report
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* K-Nearest Neighbors (KNN)
 
-A comparison of model performance was used to identify the most suitable model for predicting delivery timeliness.
+The models were evaluated using accuracy, confusion matrix, precision, recall, F1-score, and classification report.
+
+### Model Performance
+
+| Model               |   Accuracy |
+| ------------------- | ---------: |
+| Logistic Regression |     64.45% |
+| Decision Tree       |     64.27% |
+| **Random Forest**   | **66.27%** |
+| KNN                 |     62.77% |
+
+### 🏆 Best Performing Model
+
+**Random Forest achieved the highest accuracy of 66.27%** among the four evaluated models.
+
+The results show that Random Forest provided the best predictive performance for this dataset based on accuracy.
+
+### Key Finding
+
+Although the difference in accuracy between the models is relatively small, Random Forest performed better than Logistic Regression, Decision Tree, and KNN on the test dataset. This makes Random Forest the best-performing model among the algorithms evaluated in this project.
+
+
+### Key Finding
+
+The results show that Machine Learning can be used to identify patterns associated with e-commerce delivery timeliness. The Random Forest model provided the best predictive performance among the evaluated models.
 
 ## 💡 Business Benefits
 
